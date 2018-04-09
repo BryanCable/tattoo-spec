@@ -1,0 +1,119 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+/* UNIVERSAL STYLES */
+
+.white {
+    color: #fff;
+}
+
+h3 {
+    letter-spacing: 4px;
+}
+
+/* NAVBAR STYLES START */
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+
+/* NAVBAR STYLES END */
+
+/* CAROUSEL STYLES START */
+
+.flex-slide {
+    width: 100%;
+}
+
+.item {
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-image {
+    background-image: url('../img/reda-rachdi-545741-unsplash.jpg');
+}
+
+.artist-image {
+    background-image: url('../img/gabriel-laroche-390538-unsplash.jpg');
+}
+
+.hands-image {
+    background-image: url('../img/celine-preher-379152-unsplash.jpg');
+}
+
+/* CAROUSEL STYLES END */
+
+
+/* LOGO STYLES START */
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+
+.skull-img {
+    height: 100%;
+    background: transparent;
+    width: 300px;
+}
+
+/* LOGO STYLES END */
+
+/* SPOTLIGHT STYLES START */
+
+.spotlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 80px;
+    background-color: #000;
+}
+
+.spotlight-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.small-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 6px solid #fff;
+    border-radius: 10px;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.small-image {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.surgery {
+    width: 70%;
+    height: 150px;
+}
+
+.spotlight-text {
+    font-size: 1.5em;
+    padding-top: 12px;
+}
+
+/* SPOTLIGHT STYLES END */
+
